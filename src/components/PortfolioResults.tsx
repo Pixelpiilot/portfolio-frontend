@@ -126,7 +126,7 @@ export default function PortfolioResults({ results }: PortfolioResultsProps) {
   return (
     <div className="space-y-6 stagger">
       {/* Portfolio Performance Summary */}
-      <div className="bg-white rounded-lg shadow-md p-6 animate-pop" aria-live="polite">
+      <div className="bg-white rounded-lg shadow-md p-6 pr-5 animate-pop" aria-live="polite">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Portfolio Performance
         </h2>
@@ -170,15 +170,15 @@ export default function PortfolioResults({ results }: PortfolioResultsProps) {
 
           <div className="p-4 rounded-lg border border-gray-200 bg-gray-50">
             <div className="text-xs font-medium text-gray-700 mb-1.5">Risk Level</div>
-            <div className={`inline-block px-3 py-1 rounded-full text-sm font-semibold ${getRiskColor(metrics.riskLevel)}`}>
-              {metrics.riskLevel} Risk
+            <div className={`inline-block px-3 py-1 rounded-full text-sm font-semibold whitespace-nowrap ${getRiskColor(metrics.riskLevel)}`}>
+              {metrics.riskLevel.replace('-', '‑')} Risk
             </div>
           </div>
         </div>
       </div>
 
       {/* 1-Year Projection */}
-      <div className="bg-white rounded-lg shadow-md p-6 animate-pop" aria-live="polite">
+      <div className="bg-white rounded-lg shadow-md p-6 pr-5 animate-pop" aria-live="polite">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           1-Year Projection
         </h2>
@@ -201,7 +201,7 @@ export default function PortfolioResults({ results }: PortfolioResultsProps) {
       </div>
 
       {/* Allocation Charts */}
-      <div className="bg-white rounded-lg shadow-md p-6 animate-pop">
+      <div className="bg-white rounded-lg shadow-md p-6 pr-5 animate-pop">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Allocation Overview
         </h2>
@@ -230,7 +230,7 @@ export default function PortfolioResults({ results }: PortfolioResultsProps) {
       </div>
 
       {/* Detailed Allocation Table */}
-      <div className="bg-white rounded-lg shadow-md p-6 pr-6 mr-1 animate-pop">
+      <div className="bg-white rounded-lg shadow-md p-6 pr-5 mr-0.5 animate-pop">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Detailed Allocation
         </h2>
@@ -265,8 +265,8 @@ export default function PortfolioResults({ results }: PortfolioResultsProps) {
                     ₹{allocation.allocation.toLocaleString('en-IN')}
                   </td>
                   <td className="text-center py-3 px-2">
-                    <span className={`px-2 py-1 rounded-full text-xs ${getRiskColor(allocation.riskLevel)}`}>
-                      {allocation.riskLevel}
+                    <span className={`px-2 py-1 rounded-full text-xs whitespace-nowrap ${getRiskColor(allocation.riskLevel)}`}>
+                      {allocation.riskLevel.replace('-', '‑')}
                     </span>
                   </td>
                   <td className="text-center py-3 px-2 text-gray-600">

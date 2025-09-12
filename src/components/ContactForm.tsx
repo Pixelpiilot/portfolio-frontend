@@ -53,7 +53,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
         <div className="lg:col-span-2">
           <div className="rounded-2xl bg-white p-6 shadow-md ring-1 ring-gray-200 h-full">
-            <h2 className="text-xl font-bold text-gray-900">We’d love to hear from you</h2>
+            <h2 className="text-xl font-bold text-gray-900">We love to hear from you</h2>
             <p className="mt-2 text-sm text-gray-600">
               Questions, ideas, or issues — send us a message.
             </p>
