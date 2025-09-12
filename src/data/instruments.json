@@ -8,14 +8,14 @@
   },
   "Gold": {
     "risk": 0.3,
-    "return": 0.11,
+    "return": 0.08,
     "std": 0.15,
     "risk_level": "Medium-High",
     "category": "Commodities"
   },
   "Government Bonds": {
     "risk": 0.2,
-    "return": 0.1,
+    "return": 0.09,
     "std": 0.05,
     "risk_level": "Low-Medium",
     "category": "Government"
@@ -43,7 +43,7 @@
   },
   "FD": {
     "risk": 0.05,
-    "return": 0.055,
+    "return": 0.05,
     "std": 0.005,
     "risk_level": "Low",
     "category": "Cash & Cash-like"
@@ -57,7 +57,7 @@
   },
   "IT Sector ETF": {
     "risk": 0.75,
-    "return": 0.11,
+    "return": 0.10,
     "std": 0.22,
     "risk_level": "High",
     "category": "Equity"
@@ -71,14 +71,14 @@
   },
   "PSU Bank ETF": {
     "risk": 0.65,
-    "return": 0.085,
+    "return": 0.07,
     "std": 0.19,
     "risk_level": "High",
     "category": "Equity"
   },
   "Large Cap Mutual Fund": {
     "risk": 0.55,
-    "return": 0.095,
+    "return": 0.09,
     "std": 0.16,
     "risk_level": "High",
     "category": "Equity"
