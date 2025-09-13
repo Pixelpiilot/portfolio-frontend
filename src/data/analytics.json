@@ -29,25 +29,50 @@
       }
     },
     "2025-09-12": {
-      "pageViews": 15,
+      "pageViews": 36,
       "events": {
-        "instrumentAdded": 6
+        "instrumentAdded": 16
       },
       "instrumentCounts": {
-        "FD": 1,
+        "FD": 2,
         "Stocks": 1,
         "Gold": 1,
         "Government Bonds": 1,
-        "Midcap Mutual Fund": 1,
-        "Balanced Advantage Fund": 1
+        "Midcap Mutual Fund": 2,
+        "Balanced Advantage Fund": 1,
+        "Index Fund": 7,
+        "Ultra Short Duration Fund": 1
       },
       "pages": {
-        "/": 4,
-        "/optimizer": 7,
-        "/about": 3,
-        "/contact": 1
+        "/": 14,
+        "/optimizer": 14,
+        "/about": 5,
+        "/contact": 3
+      }
+    },
+    "2025-09-13": {
+      "pageViews": 32,
+      "events": {
+        "instrumentAdded": 24
+      },
+      "instrumentCounts": {
+        "IT Sector ETF": 3,
+        "Debt Fund": 1,
+        "FD": 2,
+        "International ETF": 1,
+        "Real Estate Trust": 2,
+        "Gold": 4,
+        "Stocks": 4,
+        "Government Bonds": 2,
+        "Midcap Mutual Fund": 5
+      },
+      "pages": {
+        "/": 14,
+        "/about": 6,
+        "/contact": 1,
+        "/optimizer": 11
       }
     }
   },
-  "lastUpdated": "2025-09-12T16:34:14.191Z"
+  "lastUpdated": "2025-09-13T04:15:49.465Z"
 }

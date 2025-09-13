@@ -208,7 +208,7 @@ export default function Optimizer() {
                   Portfolio Results
                 </h3>
                 <p className="text-gray-500">
-                  Click &quot;Optimize Portfolio&quot; to see your optimized allocation based on your preferences
+                  Click "Optimize Portfolio" to see your optimized allocation based on your preferences
                 </p>
               </div>
             )}
